@@ -28,9 +28,9 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 
 - #### Theme:
 
-  - Download the repository
+  1. Download the repository
 
-  - Move the "SonyBoy_Theme" folder to %USERPROFILE%\\.spicetify\Themes
+  2. Move the "SonyBoy_Theme" folder to %USERPROFILE%\\.spicetify\Themes
 
 - #### Theme (Powershell):
 
