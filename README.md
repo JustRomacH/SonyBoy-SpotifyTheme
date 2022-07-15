@@ -4,7 +4,7 @@
 
 ### Here's what came out of it:
 
-![example](https://github.com/JustRomacH/SonyBoys-SpotifyTheme/raw/master/Images/example_1.png)
+![example](https://raw.githubusercontent.com/JustRomacH/SonyBoy-SpotifyTheme/master/Images/example_1.png)
 
 ---
 
