@@ -35,11 +35,11 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 - #### Theme (Powershell):
 
 ```powershell
-cd %USERPROFILE%\.spicetify\Themes
+cd $home\.spicetify\Themes
 
 git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
 
-spicetify config current_theme SonyBoy_Theme
+spicetify config current_theme SonyBoy-SpotifyTheme
 
 spicetify apply
 ```
@@ -49,7 +49,7 @@ spicetify apply
 ```bash
 cd "$(dirname "$(spicetify -c)")/Themes
 
-spicetify config current_theme SonyBoy_Theme
+spicetify config current_theme SonyBoy-SpotifyTheme
 
 spicetify apply
 ```
