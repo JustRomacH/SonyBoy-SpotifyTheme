@@ -32,7 +32,6 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 
   - Move the "SonyBoy_Theme" folder to %USERPROFILE%\.spicetify\Themes
 
-
 - #### Theme (Powershell):
 
 ```powershell
