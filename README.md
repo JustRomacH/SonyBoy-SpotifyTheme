@@ -30,7 +30,7 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 
   1. Download the repository
 
-  2. Move the "SonyBoy_Theme" folder to C:\Users\{Your User}\.spicetify\Themes
+  2. Move the "SonyBoy_Theme" folder to C:\Users\\{Your User}\\.spicetify\Themes
 
 - #### Theme (Powershell):
 
