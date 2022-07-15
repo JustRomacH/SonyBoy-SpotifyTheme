@@ -18,7 +18,7 @@ iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/insta
 iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex
 ```
 
-- #### Spicetify (Shell):
+- #### Spicetify (Bash):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
@@ -28,9 +28,9 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 
 - #### Theme:
 
-- Download the repository
+  - Download the repository
 
-- Move the "SonyBoy_Theme" folder to %USERPROFILE%\.spicetify\Themes
+  - Move the "SonyBoy_Theme" folder to %USERPROFILE%\.spicetify\Themes
 
 
 - #### Theme (Powershell):
@@ -45,7 +45,7 @@ spicetify config current_theme SonyBoy_Theme
 spicetify apply
 ```
 
-- #### Theme (Shell):
+- #### Theme (Bash):
 
 ```bash
 cd "$(dirname "$(spicetify -c)")/Themes
