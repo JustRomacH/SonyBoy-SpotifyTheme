@@ -12,26 +12,45 @@
 
 - #### Spicetify (Powershell):
 
-  iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex
-  iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex
+```powershell
+iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex
+
+iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex
+```
 
 - #### Spicetify (Shell):
 
-  curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
-  curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+```bash
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+```
 
 - #### Theme:
-  - Download the repository
-  - Move the "SonyBoy_Theme" folder to %USERPROFILE%\.spicetify\Themes
-  -
+
+- Download the repository
+
+- Move the "SonyBoy_Theme" folder to %USERPROFILE%\.spicetify\Themes
+
+
 - #### Theme (Powershell):
 
-  cd %USERPROFILE%\.spicetify\Themes
-  git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
-  spicetify config current_theme SonyBoy_Theme
-  spicetify apply
+```powershell
+cd %USERPROFILE%\.spicetify\Themes
+
+git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
+
+spicetify config current_theme SonyBoy_Theme
+
+spicetify apply
+```
 
 - #### Theme (Shell):
-  cd "$(dirname "$(spicetify -c)")/Themes
-  spicetify config current_theme SonyBoy_Theme
-  spicetify apply
+
+```bash
+cd "$(dirname "$(spicetify -c)")/Themes
+
+spicetify config current_theme SonyBoy_Theme
+
+spicetify apply
+```
