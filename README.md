@@ -47,7 +47,7 @@ spicetify apply
 - #### Theme (Bash):
 
 ```bash
-cd "$HOME/.spicetify/Themes
+cd $HOME/.spicetify/Themes
 
 git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
 
