@@ -30,12 +30,12 @@ curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/mai
 
 1. Download the repository
 
-2. Unzip repozitory to C:\Users\\{Your User}\\.spicetify\Themes
+2. Unzip repozitory to C:\\Users\\{Your User}\\AppData\\Roaming\\spicetify\\Themes
 
 - #### Theme (Powershell):
 
 ```powershell
-cd $home\.spicetify\Themes
+cd $home\AppData\Roaming\spicetify\Themes
 
 git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
 
@@ -47,7 +47,9 @@ spicetify apply
 - #### Theme (Bash):
 
 ```bash
-cd "$(dirname "$(spicetify -c)")/Themes
+cd "$HOME/.spicetify/Themes
+
+git clone https://github.com/JustRomacH/SonyBoy-SpotifyTheme
 
 spicetify config current_theme SonyBoy-SpotifyTheme
 
